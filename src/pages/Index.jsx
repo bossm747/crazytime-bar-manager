@@ -1,4 +1,3 @@
-import React from 'react';
 import crazytimeLogo from '/images/crazytime-logo.png';
 
 const Index = () => {
