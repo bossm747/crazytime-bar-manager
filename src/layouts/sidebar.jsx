@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import headerLogo from "../../public/images/header-logo.png";
 
 
 import {
@@ -20,10 +22,10 @@ const Layout = () => {
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
       <Sidebar />
       <div className="flex flex-col">
-        <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
+        <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6 justify-between">
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
-            <span className="text-xl font-semibold">CrazyTime RestoBar</span>
+            <Image src={headerLogo} alt="CrazyTime RestoBar Logo" width={150} height={50} />
           </div>
           <UserDropdown />
         </header>
