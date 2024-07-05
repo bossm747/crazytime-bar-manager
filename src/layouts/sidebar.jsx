@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2, BarChart } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
+import crazytimeLogo from "/images/crazytime-logo.png";
 
 const Layout = () => {
   return (
@@ -23,8 +23,8 @@ const Layout = () => {
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
             <img
-              src="/images/header-homepage-image.png"
-              alt="Header Image"
+              src={crazytimeLogo}
+              alt="CrazyTime Resto Bar Logo"
               className="h-auto max-w-full"
             />
           </div>
