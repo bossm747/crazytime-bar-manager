@@ -24,7 +24,7 @@ const Layout = () => {
           <div className="w-full flex-1 flex justify-center">
             <img
               src="/images/placeholder.png"
-              alt="Header Image"
+              alt="Header Placeholder Image"
               className="h-auto max-w-full"
             />
           </div>
