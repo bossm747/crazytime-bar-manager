@@ -1,5 +1,5 @@
 import React from 'react';
-import untitledImage from "/images/Untitled design.png";
+import untitledImage from "/public/images/Untitled design.png";
 
 const Index = () => {
   return (

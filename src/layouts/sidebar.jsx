@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import untitledImage from "/images/Untitled design.png";
+import untitledImage from "/public/images/Untitled design.png";
 
 import {
   DropdownMenu,
