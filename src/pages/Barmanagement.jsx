@@ -8,14 +8,7 @@ const Barmanagement = () => {
           <CardTitle>Bar Management App</CardTitle>
         </CardHeader>
         <CardContent className="flex-grow p-0">
-          <iframe
-            id="JotFormIFrame-241865508577469"
-            title="Bar Management App"
-            allow="geolocation; microphone; camera"
-            src="https://www.jotform.com/app/241865508577469?appEmbedded=1"
-            className="w-full h-full"
-            style={{ border: 0, margin: 0, padding: 0 }}
-          ></iframe>
+          <p>Bar Management App content goes here.</p>
         </CardContent>
       </Card>
     </div>
