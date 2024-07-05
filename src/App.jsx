@@ -11,6 +11,7 @@ import Staff from "./pages/Staff.jsx";
 import Reports from "./pages/Reports.jsx";
 import SettingsPage from "./pages/Settings.jsx";
 import Index from "./pages/Index.jsx";
+import Barmanagement from "./pages/Barmanagement.jsx";
 const queryClient = new QueryClient();
 
 export const navItems = [
@@ -61,6 +62,7 @@ const App = () => {
               <Route path="staff" element={<Staff />} />
               <Route path="reports" element={<Reports />} />
               <Route path="settings" element={<SettingsPage />} />
+              <Route path="barmanagement" element={<Barmanagement />} />
             </Route>
           </Routes>
         </Router>
