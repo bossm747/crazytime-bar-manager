@@ -1,10 +1,10 @@
 import React from 'react';
-import crazytimeLogo from "/images/crazytime-logo.png";
+import untitledImage from "/images/Untitled design.png";
 
 const Index = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <img src={crazytimeLogo} className="w-full max-w-md mb-4" alt="CrazyTime Resto Bar Logo" />
+      <img src={untitledImage} className="w-full max-w-md mb-4" alt="CrazyTime Resto Bar Logo" />
       <h1 className="text-3xl font-bold mb-4">Welcome to CrazyTime RestoBar</h1>
       <p className="text-lg">Manage your bar efficiently and effectively.</p>
     </div>
