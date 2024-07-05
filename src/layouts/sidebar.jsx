@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Image } from "@/components/ui/image";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,7 +22,7 @@ const Layout = () => {
         <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
-            <Image
+            <img
               src="/images/header-homepage-image.png"
               alt="Header Image"
               className="h-auto max-w-full"
