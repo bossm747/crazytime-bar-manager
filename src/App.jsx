@@ -13,6 +13,7 @@ import SettingsPage from "./pages/Settings.jsx";
 import Index from "./pages/Index.jsx";
 import Barmanagement from "./pages/Barmanagement.jsx";
 import InventoryManagement from "./pages/InventoryManagement.jsx";
+import ImageUploadPage from "./pages/ImageUploadPage.jsx";
 const queryClient = new QueryClient();
 
 export const navItems = [
@@ -65,6 +66,7 @@ const App = () => {
               <Route path="settings" element={<SettingsPage />} />
               <Route path="barmanagement" element={<Barmanagement />} />
               <Route path="inventory-management" element={<InventoryManagement />} />
+              <Route path="image-upload" element={<ImageUploadPage />} />
             </Route>
           </Routes>
         </Router>
