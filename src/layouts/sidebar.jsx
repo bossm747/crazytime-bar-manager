@@ -23,7 +23,7 @@ const Layout = () => {
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
             <img
-              src="/images/header-homepage-image.png"
+              src="/images/placeholder.png"
               alt="Header Image"
               className="h-auto max-w-full"
             />
