@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
+import crazytimeLogo from "@/../public/images/crazytime-logo.png";
 
 const Layout = () => {
   return (
@@ -34,8 +35,7 @@ const DesktopNav = () => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <Package2 className="h-6 w-6" />
-      <span className="sr-only">Acme Inc</span>
+      <img src={crazytimeLogo} alt="CrazyTime Resto Bar Logo" className="h-10 w-auto" />
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -55,13 +55,12 @@ const MobileNav = () => (
     </SheetTrigger>
     <SheetContent side="left">
       <nav className="grid gap-6 text-lg font-medium">
-        <NavItem
+        <NavLink
           to="/"
-          className="flex items-center gap-2 text-lg font-semibold"
+          className="flex items-center gap-2 text-lg font-semibold mb-4"
         >
-          <Package2 className="h-6 w-6" />
-          <span className="sr-only">Acme Inc</span>
-        </NavItem>
+          <img src={crazytimeLogo} alt="CrazyTime Resto Bar Logo" className="h-10 w-auto" />
+        </NavLink>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>
             {item.title}
