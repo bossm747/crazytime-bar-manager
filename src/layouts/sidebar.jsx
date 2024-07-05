@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import crazytimeLogo from '/images/crazytime-logo.png';
 
 import {
   DropdownMenu,
@@ -23,8 +24,8 @@ const Layout = () => {
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
             <img
-              src="/images/header-homepage-image.png"
-              alt="Header Image"
+              src={crazytimeLogo}
+              alt="CrazyTime Resto Bar Logo"
               className="h-auto max-w-full"
             />
           </div>
