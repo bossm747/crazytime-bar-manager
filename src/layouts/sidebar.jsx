@@ -25,7 +25,7 @@ const Layout = () => {
         <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6 justify-between">
           <MobileSidebar />
           <div className="w-full flex-1 flex justify-center">
-            <img src="/images/header-logo.png" alt="CrazyTime RestoBar Logo" width={150} height={50} />
+            <img src="https://drive.google.com/file/d/16WbvNQScqmWNsOyPTvOInX_cLw-2SRNp" alt="CrazyTime RestoBar Logo" width={150} height={50} />
           </div>
           <UserDropdown />
         </header>
