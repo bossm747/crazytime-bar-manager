@@ -48,9 +48,9 @@ const Sidebar = () => (
               {item.title}
             </SidebarNavLink>
           ))}
-          <SidebarNavLink to="/barmanagement">
+          <SidebarNavLink to="/inventory-management">
             <BarChart className="h-4 w-4" />
-            Bar Management
+            Inventory Management
           </SidebarNavLink>
         </nav>
       </div>
@@ -80,8 +80,8 @@ const MobileSidebar = () => (
             {item.title}
           </SidebarNavLink>
         ))}
-        <SidebarNavLink to="/barmanagement">
-          Bar Management
+        <SidebarNavLink to="/inventory-management">
+          Inventory Management
         </SidebarNavLink>
       </nav>
     </SheetContent>
