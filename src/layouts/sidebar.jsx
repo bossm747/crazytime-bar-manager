@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { CircleUser, Menu, Package2, BarChart, Image } from "lucide-react";
+import { CircleUser, Menu, Package2, BarChart } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
@@ -59,10 +59,7 @@ const Sidebar = () => (
             <BarChart className="h-4 w-4" />
             Inventory Management
           </SidebarNavLink>
-          <SidebarNavLink to="/image-upload">
-            <Image className="h-4 w-4" />
-            Image Upload
-          </SidebarNavLink>
+          
           
         </nav>
       </div>
@@ -95,10 +92,7 @@ const MobileSidebar = () => (
         <SidebarNavLink to="/inventory-management">
           Inventory Management
         </SidebarNavLink>
-        <SidebarNavLink to="/image-upload">
-          <Image className="h-4 w-4" />
-          Image Upload
-        </SidebarNavLink>
+        
       </nav>
     </SheetContent>
   </Sheet>
